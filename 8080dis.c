@@ -11,7 +11,6 @@ int Disassemble8080Op(unsigned char *codebuffer, int pc) {
     unsigned char *code = &codebuffer[pc];  // equivalent to codebuffer + pc
     int opbytes = 1;
 
-    // printf("code: %02X\n", *code);
     printf("%04x ", pc);
 
     switch (*code) {
