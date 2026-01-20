@@ -15,7 +15,7 @@ LDLIBS = -lm
 
 # list the files that are part of the project
 # here is where you add/change names of sources files
-SOURCES = 8080dis.c
+SOURCES = 8080dis.c opcode8080.c
 OBJECTS = $(SOURCES:.c=.o)
 TARGET = 8080dis
 
